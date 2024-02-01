@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.lst{
+  white-space: pre-wrap;
+}
+.person {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  text-align: center;
+}
+table{
+  width: 100vw;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+td {
+  border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+.upsrt{
+  margin: auto;
+  max-width: 150px;
+}
+.srt {
+  margin: auto;
+  /* margin-left: 30px; */
+  max-width: 480px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+label {
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: rgb(211, 209, 209);
+  padding: 6px;
+  padding-bottom: 8px;
+}
+.choise{
+  margin-top: 10px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.choise input[type=radio] {
+  display: none;
+}
+.choise input[type=radio]:checked+label {
+  background: #ffe0a6;
+}
+
+.search {
+  padding-top: 10px;
+  margin: auto;
+  max-width: 300px;
+}
+.search input[type=text]{
+  margin-right: 10px;
+}
+.search input[type=submit]{
+  padding: 4px;
+  border-radius: 5px;
+  background: rgb(211, 209, 209);
+  cursor: pointer;
+  border: none;
+}
+.search input[type=submit]:hover{
+  background: #ffe0a6;
+}
+.search input[type=submit]:active{
+  background: #ffe0a6a4;
+}
